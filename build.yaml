@@ -1,0 +1,7 @@
+builders:
+  idkit_builder:
+    import: "package:IDKitImageNote/IDKitBuilder.dart"
+    builder_factories: ["imageSourceNoteBilder"]
+    build_extensions: { ".dart": [".g.dart"] }
+    auto_apply: root_package
+    build_to: source

@@ -1,7 +1,10 @@
-library IDKitImageNote;
+class IDKitImageNote {
+  /// The path to the resource file.
+  final String pathName;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+  /// The name of the class to generate.
+  final String className;
+
+  /// Quick build method.
+  const IDKitImageNote(this.pathName, this.className);
 }
